@@ -8,7 +8,7 @@
  */
 
 require 'Advertisement.php';
-//
+
 class AdvertisementFactory
 {
     public static function Create($id)
