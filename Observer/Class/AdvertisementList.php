@@ -27,6 +27,5 @@ class AdvertisementList implements IObservable
     function addObserver($observer)
     {
         $this->_observers[] = $observer;
-        // TODO: Implement addObserver() method.
     }
 }
