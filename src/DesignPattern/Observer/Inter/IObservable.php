@@ -6,7 +6,7 @@
  * Time: 11:06 PM
  */
 
-//namespace Observer;
+namespace DesignPattern\Observer\Inter;
 
 
 interface IObservable

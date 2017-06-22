@@ -6,8 +6,10 @@
  * Time: 11:17 PM
  */
 
-//namespace Observer;
-require '../Interface/IObserver.php';
+namespace DesignPattern\Observer\Impl;
+
+use DesignPattern\Observer\Inter\IObserver;
+
 
 class ListLog implements IObserver
 {

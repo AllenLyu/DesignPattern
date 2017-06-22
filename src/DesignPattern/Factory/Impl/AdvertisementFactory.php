@@ -7,7 +7,8 @@
  * Time: 10:40 PM
  */
 
-require 'Advertisement.php';
+//require 'Advertisement.php';
+namespace DesignPattern\Factory\Impl;
 
 class AdvertisementFactory
 {

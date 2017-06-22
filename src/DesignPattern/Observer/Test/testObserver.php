@@ -6,9 +6,11 @@
  * Time: 11:18 PM
  */
 
-//namespace namespaceObserver;
-require '../Class/AdvertisementList.php';
-require '../Class/ListLog.php';
+namespace DesignPattern\Observer\Test;
+
+use DesignPattern\Observer\Impl\AdvertisementList;
+use DesignPattern\Observer\Impl\ListLog;
+
 class testObserver
 {
     public static function main(){
@@ -23,5 +25,7 @@ class testObserver
         $list->addAdvertisement('Storm');
     }
 }
-
+require '../../../../vendor/autoload.php';
 testObserver::main();
+$dom = new \DOMElement('awe');
+var_dump($dom);

@@ -6,7 +6,10 @@
  * Date: 11/20/16
  * Time: 10:34 PM
  */
-require '../Interface/IAdvertisement.php';
+
+namespace DesignPattern\Factory\Impl;
+
+use DesignPattern\Factory\Inter\IAdvertisement;
 
 class Advertisement implements IAdvertisement
 {

@@ -1,12 +1,8 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: allenlyu
- * Date: 11/20/16
- * Time: 11:09 PM
- */
-require '../Interface/IObservable.php';
+namespace DesignPattern\Observer\Impl;
+
+use DesignPattern\Observer\Inter\IObservable;
 
 class AdvertisementList implements IObservable
 {

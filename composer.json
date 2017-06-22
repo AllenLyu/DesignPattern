@@ -1,0 +1,17 @@
+{
+    "name": "root/design-pattern",
+    "authors": [
+        {
+            "name": "allenlyu",
+            "email": "allenlyu@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"DesignPattern\\": "src/DesignPattern"
+        }
+    },
+    "require": {
+        "monolog/monolog":"1.23.0",
+        "phpunit/phpunit":"~4.0"
+    }
+}
