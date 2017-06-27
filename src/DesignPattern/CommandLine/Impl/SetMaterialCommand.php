@@ -14,6 +14,7 @@ use DesignPattern\CommandLine\Inter\Command;
 class SetMaterialCommand implements Command
 {
 
+
     function onCommand($command, $args)
     {
         if ($command!=='setMaterialCommand')
