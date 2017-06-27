@@ -12,6 +12,6 @@
     },
     "require": {
         "monolog/monolog":"1.23.0",
-        "phpunit/phpunit":"~4.0"
+        "phpunit/phpunit":"4.8.36"
     }
 }
