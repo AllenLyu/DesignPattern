@@ -33,11 +33,11 @@ class testCommandLine extends \PHPUnit_Framework_TestCase
         $this->assertEquals("set material :1201 successful",$result);
     }
 
-    public function testIllInput()
-    {
-        $result = $this->commandLine->runCommand('Fuck',1201);
-        $this->assertEquals("add ad : 1201 successful",$result);
-    }
+//    public function testIllInput()
+//    {
+//        $result = $this->commandLine->runCommand('Fuck',1201);
+//        $this->assertEquals("add ad : 1201 successful",$result);
+//    }
 
 
     protected function setUp()
