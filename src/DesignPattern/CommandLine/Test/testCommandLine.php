@@ -42,7 +42,6 @@ class testCommandLine extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-
         $this->commandLine = new CommandLine();
         $this->commandLine->addCommand(new AddAdCommand());
         $this->commandLine->addCommand(new SetMaterialCommand());
