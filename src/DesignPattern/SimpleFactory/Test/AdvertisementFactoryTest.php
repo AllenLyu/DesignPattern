@@ -14,9 +14,21 @@ use DesignPattern\SimpleFactory\AdvertisementFactory;
 
 class AdvertisementFactoryTest extends \PHPUnit_Framework_TestCase
 {
+
+    private $testArray = array('PcQianTiePian'=>'Pc QianTie is before video start',
+        'WirelessQianTie'=>'Wireless QianTie is before video (on Mobile device)',
+        'PcZhongBo'=>'Pc ZhongBo is in the video');
+
+
+
+
     public function testAll()
     {
-        $str = AdvertisementFactory::create('PcQianTiePian')->getLocation();
-        $this->assertEquals('Pc QianTie is before video start', $str);
+
+        foreach ($this->testArray as $item=>$output) {
+            $str = AdvertisementFactory::create($item)->getLocation();
+            $this->assertEquals($output, $str);
+        }
+
     }
 }
