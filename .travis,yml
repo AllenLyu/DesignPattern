@@ -1,4 +1,2 @@
-{
-    language: 'php'
-    os : 'linux'
-}
+language: php
+os : linux
