@@ -26,7 +26,7 @@ class AdvertisementFactory
             'PcZhongBo'=>'\DesignPattern\SimpleFactory\Impl\PcZhongBo');
 
 
-        if (class_exists($adClassMap[$name])){
+        if (isset($adClassMap[$name])&&class_exists($adClassMap[$name])){
             return new $adClassMap[$name]();
         }else{
             return null;

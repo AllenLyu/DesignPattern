@@ -31,4 +31,11 @@ class AdvertisementFactoryTest extends \PHPUnit_Framework_TestCase
         }
 
     }
+
+
+    public function testNull()
+    {
+        $object = AdvertisementFactory::create('fuck');
+        self::assertEquals(null,$object);
+    }
 }
