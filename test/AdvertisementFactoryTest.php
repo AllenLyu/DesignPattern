@@ -7,8 +7,6 @@
  */
 
 namespace src\DesignPattern\SimpleFactory\Test;
-require '../../../../vendor/autoload.php';
-
 
 use DesignPattern\SimpleFactory\AdvertisementFactory;
 

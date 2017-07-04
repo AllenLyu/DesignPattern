@@ -6,7 +6,6 @@
  * Time: 下午9:54
  */
 namespace src\DesignPattern\Observer\Test;
-require '../../../../vendor/autoload.php';
 
 
 class Test extends \PHPUnit_Framework_TestCase
