@@ -2,6 +2,7 @@ language: php
 os : linux
 
 script:
+  - composer update
   - mkdir -p build/logs
   - phpunit -c phpunit.xml.dist --coverage-clover build/logs/clover.xml
 
