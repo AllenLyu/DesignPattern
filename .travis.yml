@@ -4,7 +4,7 @@ os : linux
 script:
   - composer update
   - mkdir -p build/logs
-  - phpunit -c phpunit.xml.dist --coverage-clover build/logs/clover.xml
+  - ./vendor/bin/phpunit -c phpunit.xml.dist --coverage-clover build/logs/clover.xml
 
 after_script:
   - travis_retry php vendor/bin/coveralls -v
