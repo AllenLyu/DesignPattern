@@ -26,7 +26,8 @@ class ObserverTest extends \PHPUnit_Framework_TestCase
     }
 
     public function testLog(){
-        $this->expectOutputString('Alibaba add to list');
+//        $this->expectOutputRegex("Alibaba add to list \n");
+        $this->expectOutputString("AliBaBa add to list \n");
 
         $this->list->addAdvertisement('AliBaBa');
     }

@@ -16,7 +16,6 @@ class ListLog implements IObserver
 
     public function onChanged($sender, $args)
     {
-        echo $args.' add to list'."\n";
-        // TODO: Implement onChanged() method.
+        echo $args." add to list \n";
     }
 }
