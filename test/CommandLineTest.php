@@ -35,7 +35,7 @@ class testCommandLine extends \PHPUnit_Framework_TestCase
     public function testIllInput()
     {
         $result = $this->commandLine->runCommand('Fuck',1201);
-        $this->assertEquals("add ad : 1201 successful",$result);
+        $this->assertEquals("command not found",$result);
     }
 
 
